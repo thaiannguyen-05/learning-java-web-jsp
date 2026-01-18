@@ -1,0 +1,17 @@
+.list-button {
+    margin: 20px;
+}
+
+.table-button {
+    background-color: rgb(109, 211, 109);
+    border: 1px solid black;
+}
+
+.external-button {
+    background-color: rgb(109, 211, 109);
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+}
+

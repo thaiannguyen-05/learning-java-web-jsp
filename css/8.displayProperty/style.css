@@ -1,0 +1,14 @@
+div {
+    background-color: hsl(0, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: block;
+    visibility: hidden;
+}
+
+span {
+    background-color: hsl(120, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}

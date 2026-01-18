@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+
+.box {
+    border: 10px solid hsl(0, 0%, 0%);
+    width: 30%;
+    height: 100px;
+    margin: auto;
+}
+
+#box1 {
+    background-color: tomato;
+    margin-bottom: 50px;
+}
+
+#box2 {
+    background-color: lightblue;
+}

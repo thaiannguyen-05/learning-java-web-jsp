@@ -1,0 +1,18 @@
+h1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(236, 39%, 48%);
+    border-radius: 20px;
+
+
+    /*
+    can be replace with border: 3px solid black;
+    */
+}
+
+p {
+    border-bottom: 3px solid rgb(255, 0, 0);
+    border-top: 3px solid rgb(0, 255, 0);
+    border-left: 3px solid rgb(0, 0, 255);
+    border-right: 3px solid rgb(255, 255, 0);
+}
