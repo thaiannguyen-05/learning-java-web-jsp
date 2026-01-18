@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andev</title>
+    <link rel="icon" href="images/Screenshot 2026-01-13 101856.png">
+</head>
+
+<body>
+    <form method="post" action="index.php">
+        <label for="username">Username : </label>
+        <input type="text" id="username" minlength="5" maxlength="10" required placeholder="andev">
+        <br>
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" minlength="5" maxlength="10" required>
+        <br>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" required placeholder="andev@gmail.com">
+        <br>
+
+        <label for="birthday">Birthday : </label>
+        <input type="date" id="birthday" required>
+        <br>
+
+        <label for="gender">Gender : </label>
+
+        <dd>
+            <input type="radio" value="male" name="gender">
+            <label for="male">Male</label> <br>
+
+            <input type="radio" value="female" name="gender">
+            <label for="female">Female</label> <br>
+
+            <input type="radio" value="other" name="gender">
+            <label for="other">Other</label> <br>
+        </dd>
+
+        <label for="number">Number : </label>
+        <input type="number" id="number" required min="0" max="10" placeholder="0">
+        <br>
+
+        <label for="payment">Payment : </label>
+        <select id="payment">
+            <option value="">Select Payment</option>
+            <option value="cash">Cash</option>
+            <option value="card">Card</option>
+        </select>
+        <br>
+        <br>
+
+        <table border="1" width="100%" style="background-color: black;"> 
+            <tr align="center" style="background-color: lightblue;">
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            
+            <tr align="center" style="background-color: aliceblue;">
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+                <td>08:00 - 12:00</td>
+            </tr>
+        </table>
+        <br>
+
+        <button 
+            style="border-radius: 15px;"
+        type="submit">Submit</button>
+        <button 
+            style="border-radius: 15px;"
+        type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
