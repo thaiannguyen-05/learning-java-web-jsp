@@ -73,7 +73,6 @@ public class Delete extends HttpServlet {
                 request.getSession().setAttribute("message", "Delete thanh cong");
             } else {
                 request.getSession().setAttribute("error", "Delete that bai");
-
             }
 
         } catch (SQLException ex) {
